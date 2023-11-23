@@ -1,0 +1,656 @@
+ *
+ {
+    margin:0px;
+    padding: 0px;
+ }
+ .navbar
+ {
+    width: 100%;
+    height: 83px;
+    position: absolute;
+    background-color: #fff
+ }
+ .bar 
+ {
+    color:white;
+    width: 5px;
+    height: 1px;
+ }
+ .menuButton
+ {
+    width: 6%;
+    height: 28px;
+    position: absolute;
+    margin: 2% 0 0 4%;
+    background-color:white;
+    color: black;
+    cursor: pointer;
+    border: none;
+    border-radius: 1;
+    font-size: 16px;
+    float: left;
+ }
+ .menuButton:hover
+ {
+    background-color: rgb(232, 228, 228);
+    border-radius: 3px;
+ }
+ .menu p
+ {
+    color: #fff;
+ }
+ .logo
+ {
+    position: absolute;
+    margin: 2.6% 0 0 38%;
+ }
+ .block_1 img
+ {
+    position: absolute;
+    width: 100%;
+    height: 524px;
+    margin: 80px 0 0 0;
+    /* background-color: rgb(157, 128, 128); */
+ }
+ .dot1 {
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    margin: 42% 0 0 47%;
+    background-color: #ff0000;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+  }
+  .dot2 {
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    margin: 42% 0 0 48.5%;
+    background-color: #6b6868;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+  }
+  .dot3 {
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    margin: 42% 0 0 50%;
+    background-color: #6b6868;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+  }
+  .dot4 {
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    margin: 42% 0 0 51.5%;
+    background-color: #6b6868;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+  }
+  .Models
+  {
+    width: 100%;
+    height: 99px;
+    background-color: #fff;
+    position: absolute;
+    margin: 44.2% 0 0 0;
+  }
+  .Models h1
+  {
+    color:#686262;
+    font-size: 38px;
+    font-weight: 600px;
+    text-align: left;
+    left: 7%;
+    position: absolute;
+  }
+  .gallery
+  {
+    width: 100%;
+    height: 682px;
+    position: absolute;
+    background-color: aqua;
+    margin: 52% 0 0 0;
+  }
+  .gallery_1 img
+  {
+    width: 455px;
+    height: 340px;
+    position: absolute;
+    background-color: blueviolet;
+    margin: 0 0 0 0;
+  }
+  .Build
+  {
+    width: 13%;
+    height: 7%;
+    background-color: white;
+    margin: 19% 0 0 2%;
+    position: absolute;
+
+  }
+  .AllModels
+  {
+    width: 10;
+    height: 7%;
+    background-color: transparent;
+    margin: 19% 0 0 7%;
+    position: absolute;
+    border: 2px;
+    border-color: white;
+  }
+  .gallery_2 img
+  {
+    width: 455px;
+    height: 340px;
+    position: absolute;
+    background-color: rgb(186, 226, 24);
+    margin: 0 0 0 455px;
+  }
+  .gallery_3 img
+  {
+    width: 455px;
+    height: 340px;
+    position: absolute;
+    background-color: rgb(226, 24, 226);
+    margin: 0 0 0 910px;
+  }
+  .gallery_4 img
+  {
+    width: 455px;
+    height: 343px;
+    position: absolute;
+    background-color: rgb(43, 220, 226);
+    margin: 340px 0 0 0;
+  }
+  .gallery_5 img
+  {
+    width: 455px;
+    height: 343px;
+    position: absolute;
+    background-color: rgb(226, 138, 24);
+    margin: 340px 0 0 455px;
+  }
+  .gallery_6 img
+  {
+    width: 455px;
+    height: 343px;
+    position: absolute;
+    background-color: rgb(226, 24, 24);
+    margin: 340px 0 0 910px;
+  }
+  .condition
+  {
+    width: 100%;
+    height: 99px;
+    background-color: #fff;
+    position: absolute;
+    margin: 102% 0 0 0;
+  }
+  .condition p
+  {
+    color: #686262;
+    position: absolute;
+    margin: 1% 0 0 8%;
+    font-style: normal;
+  }
+  .Find
+  {
+    width: 89%;
+    height: 291.7px;
+    margin: 110.2% 0 0 76px;
+    position: absolute;
+    display: flex;
+    background-color: transparent;
+  }
+  .Find p
+  {
+    color:#686262;
+    font-size: 38px;
+    font-weight: 600px;
+    text-align: left;
+    left: 1.5%;
+    top: -21%;
+    position: absolute;
+  }
+  .image-1 img
+  {
+    width: 93.6%;
+    height: 291.7px;
+    background-color: #859895;
+    margin: 0 0 0 2%;
+  }
+  .image-2 img
+  {
+    width: 93.6%;
+    height: 291.7px;
+    background-color: #244641;
+    margin: 0 0 0 1.8%;
+  }
+  .image-3 img
+  {
+    width: 93.6%;
+    height: 291.7px;
+    background-color: #87e3d5;
+    margin: 0 0 0 1.8%;
+  }
+  .findimage1
+  {
+    width: 13.4%;
+    height: 7%;
+    margin: 129% 0 0 13%;
+    background-color:#212424 ;
+    position: absolute;
+  }
+  .findimage2
+  {
+    width: 13.4%;
+    height: 7%;
+    margin: 129% 0 0 43%;
+    background-color:#212424 ;
+    position: absolute;
+  }
+  .findimage3
+  {
+    width: 15.4%;
+    height: 7%;
+    margin: 129% 0 0 73%;
+    background-color:#212424 ;
+    position: absolute;
+  }
+  .previous_Find
+  {
+    width: 3.6%;
+    height: 52.7px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    margin: 119.2% 0 0 0.6%;
+  }
+  .next_Find
+  {
+    width: 3.6%;
+    height: 52.7px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    margin: 119.2% 0 0 95.6%;
+  }
+  .Shopping
+  {
+    width: 86%;
+    height: 265.7px;
+    margin: 138.2% 0 0 98px;
+    position: absolute;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+  }
+  .Shopping p
+  {
+    color:#686262;
+    font-size: 38px;
+    font-weight: 600px;
+    text-align: left;
+    left: 0%;
+    position: absolute;
+  }
+  .compare img
+  {
+    width: 470px;
+    height: 265.7px;
+    margin: 0 0 0 0;
+    /* background-color: transparent; */
+
+  }
+  .dealer img
+  {
+    width: 236px;
+    height: 266px;
+    margin: 0 0 0 0;
+    /* background-color: #a33a3a; */
+  }
+  .lyfstyle img
+  {
+    width: 236px;
+    height: 266px;
+    margin: 0 0 0 0;
+    /* background-color: #eb9d9d; */
+  }
+  .contactus img
+  {
+    width: 236px;
+    height: 266px;
+    margin: 0 0 0 0;
+    /* background-color: #bc1f1f; */
+  }
+  .social
+  {
+    width: 89%;
+    height: 555px;
+    position:absolute;
+    margin: 168% 0 0 56px;
+    background-color: rgb(255, 255, 255);
+  }
+  /* .social p
+  {
+    color:#686262;
+    font-size: 38px;
+    font-weight: 600px;
+    text-align: left;
+    left: 3%;
+    position: absolute;
+  } */
+  .social_left
+  {
+    width: 386px;
+    height: 547px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    margin: 0 0 0 3.5%;
+  }
+  .top_left_social_left img
+  {
+    width: 387px;
+    height: 360px;
+    background-color: #a33a3a;
+    margin: 0 0 0 0;
+  }
+  .Bottom_left_social_left img
+  {
+    width: 190px;
+    height: 178px;
+    background-color: #3aa39a;
+    margin: 2% 0 0 0;
+  }
+  .Bottom_right_social_left img
+  {
+    width: 190px;
+    height: 178px;
+    background-color: #3aa39a;
+    position: absolute;
+    margin: -47% 0 0 50.7%;
+  }
+  .social_center
+  {
+    width: 386px;
+    height: 547px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    margin: 0 0 0 36%;
+  }
+  .bottom_social_center img
+  {
+    width: 387px;
+    height: 360px;
+    background-color: #a33a3a;
+    position: absolute;
+    margin: 2% 0 0 0;
+  }
+  .top_left_social_center img
+  {
+    width: 190px;
+    height: 178px;
+    background-color: #3aa39a;
+    margin: 0 0 0 0;
+  }
+  .top_right_social_center img
+  {
+    width: 190px;
+    height: 178px;
+    background-color: #3aa39a;
+    position: absolute;
+    margin: -182px 0 0 51%;
+  }
+  .social_right
+  {
+    width: 386px;
+    height: 547px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    margin: -182px 0 0 102%;
+  }
+  .top_social_right img
+  {
+    width: 387px;
+    height: 360px;
+    background-color: #a33a3a;
+    position: absolute;
+    margin: 0 0 0 0;
+  }
+  .Bottom_left_social_right img
+  {
+    width: 190px;
+    height: 178px;
+    background-color: #3aa39a;
+    position: absolute;
+    margin: 96% 0 0 0;
+  }
+  .Bottom_right_social_right img
+  {
+    width: 190px;
+    height: 178px;
+    background-color: #3aa39a;
+    position: absolute;
+    margin: 96% 0 0 50.7%;
+  }
+  .media_button1
+  {
+    height: 48px;
+    width: 48px;
+    background-color: gray;
+    margin: -52px 0 0 0;
+    position: relative;
+    float: right;
+    }
+  .media_button2
+  {
+   height: 48px;
+   width: 48px;
+   background-color: gray;
+   margin: -52px 0 0 142px;
+   position: absolute;
+  }
+  .media_button3
+  {
+   height: 48px;
+   width: 48px;
+   background-color: gray;
+   margin: -52px 0 0 87.6%;
+   position: absolute;
+  }
+  .media_button4
+  {
+    height: 48px;
+    width: 48px;
+    background-color: gray;
+    margin: -52px 0 0 37%;
+    position: absolute;
+  }
+  .media_button5
+  {
+    height: 48px;
+    width: 48px;
+    background-color: gray;
+    margin: -52px 0 0 88%;
+    position: absolute;
+  }
+  .media_button6
+  {
+    height: 48px;
+    width: 48px;
+    background-color: gray;
+    margin: 83% 0 0 88%;
+    position: absolute;
+  }
+  .media_button7
+  {
+    height: 48px;
+    width: 48px;
+    background-color: gray;
+    margin: 80.8% 0 0 87.5%;
+    position: absolute;
+  }
+  .media_button8
+  {
+    height: 48px;
+    width: 48px;
+    background-color: gray;
+    margin: 129.6% 0 0 36.7%;
+    position: absolute;
+  }
+  .media_button9
+  {
+    height: 48px;
+    width: 48px;
+    background-color: gray;
+    margin: 129.6% 0 0 87.5%;
+    position: absolute;
+  }
+  .loadmore
+  {
+    width: 134px;
+    height: 50px;
+    margin: 46% 0 0 89.2%;
+    background-color: #5c6463;
+  }
+  .discover
+  {
+    width: 96.6%;
+    height: 300px;
+    margin: 0% 0 0 43px;
+    position: absolute;
+    display: flex;
+    background-color: transparent;
+  }
+  .discover1 img
+  {
+    width: 295px;
+    height: 220px;
+    background-color: #3aa39a;
+    position: absolute;
+    margin: 7% 0 0 0;  
+  }
+  .discover2 img
+  {
+    width: 295px;
+    height: 220px;
+    background-color: #414e4c;
+    position: absolute;
+    margin: 7% 0 0 25.1%;  
+  }
+  .discover3 img
+  {
+    width: 295px;
+    height: 220px;
+    background-color: #859895;
+    position: absolute;
+    margin: 7% 0 0 50.2%;  
+  }
+  .discover4 img
+  {
+    width: 295px;
+    height: 220px;
+    background-color: #071311;
+    position: absolute;
+    margin: 7% 0 0 75.4%;  
+  }
+  .more_details
+  {
+    width: 96.6%;
+    height: 300px;
+    margin: 0% 0 0 43px;
+    display: flex;
+    background-color: transparent;
+  }
+  .first
+  {
+    width: 298px;
+    height: 290px;
+    margin: 0 0 0 0;
+  }
+  .second
+  {
+    width: 298px;
+    height: 290px;
+    margin: 0 0 0 0;
+  }
+  .third
+  {
+    width: 298px;
+    height: 290px;
+    margin: 0 0 0 0;
+  }
+  .forth
+  {
+    width: 304px;
+    height: 220px;
+    margin: 0 0 0 0;
+  }
+  .socialmedia
+  {
+    width: 24.4%;
+    height: 10%;
+    margin: -5% 0 0 75.7%;
+    background-color:#212424 ;
+    position: absolute;
+  }
+  .foot
+  {
+    width: 110.78%;
+    height: 287px;
+    margin: 3% 0 0 -5%;
+    background-color: #212424;
+    padding: 1%;
+  }
+  .copyright
+  {
+    width: 90%;
+    margin: 0 0 0 6%;
+    color: white;
+    font-weight: lighter;
+  }
+  .media_icons
+  {
+    width: 230px;
+    height:110px ;
+    background-color:transparent;
+    margin: 0 0 0 75.5%;
+  }
+  .facebook
+  {
+    width:21%;
+    height:42%;
+    background-color: #212424;
+    margin: 0 0 0 0;
+  }
+  .youtube
+  {
+    width:21%;
+    height:42%;
+    background-color: #212424;
+    margin: -20% 0 0 25%;
+  }
+  .pinterest
+  {
+    width:21%;
+    height:42%;
+    background-color: #212424;
+    margin: -20% 0 0 50%;
+  }
+  .instagram
+  {
+    width:21%;
+    height:42%;
+    background-color: #212424;
+    margin: -20% 0 0 75%;
+  }
+  .linkedIn
+  {
+    width:21%;
+    height:42%;
+    background-color: #212424;
+    margin: 3% 0 0 0%;
+  }
